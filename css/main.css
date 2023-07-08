@@ -64,3 +64,19 @@ body {
     color: #111111;
     filter: drop-shadow(2px 0px 0px #FD3E3E) drop-shadow(-2px -2px 0px #4DE8F4);
 }
+@media only screen and (max-width: 400px) {
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    .layout {
+        width: 100%;
+        width: 100%;
+    }
+  }
+@media only screen and (max-width: 150px) {
+    .avatar {
+        height: 90%;
+        width: 90%;
+    }
+  }
