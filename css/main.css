@@ -19,6 +19,7 @@ body {
     width: 400px;
     border: 5px solid #5188ca;
     border-radius: 5%;
+    overflow: hidden;
 }
 
 .avatar {
