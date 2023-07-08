@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mai Thy ne</title>
+    <link rel="stylesheet" href="css/main.css">
+
+</head>
+
+<body>
+    <div class="layout">
+        <div class="info">
+            <div class="an">
+                <div class="av">
+                    <img src="css/avatar.png" alt="avatar" height="150px" class="avatar">
+                </div>
+                <div class="name">
+                    Tống Nguyễn Mai Thy
+                </div>
+            </div>
+        </div>
+        <div class="social">
+            <abbr title="Mai Thy | Facebook"><button class="button" style="color: #046ee5;" id="facebook"><i
+                        class="fa-brands fa-facebook"></i></button></abbr>
+            <abbr title=""><button class="button" id="instagram"><i class="fa-brands fa-instagram"></i></button></abbr>
+            <abbr title=""><button class="button" id="tiktok"><i class="fa-brands fa-tiktok"></i></button></abbr>
+            <abbr title=""><button class="button" id="ellipsis"><i class="fa-solid fa-ellipsis"></i></button></abbr>
+        </div>
+    </div>
+</body>
+<script src="https://kit.fontawesome.com/9aad99d1ba.js" crossorigin="anonymous"></script>
+<script>
+    let facebook = document.getElementById("facebook");
+    let instagram = document.getElementById("instagram");
+    let tiktok = document.getElementById("tiktok");
+    facebook.addEventListener("click", function () {
+        window.open('https://www.facebook.com/MaiThy08', '_blank');
+    });
+</script>
+
+</html>
